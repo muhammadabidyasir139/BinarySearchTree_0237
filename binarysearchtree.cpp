@@ -158,6 +158,13 @@ int main() {
             {
                 return;
             } 
-        }
-    }
+            default:
+            {
+                cout << "Invalid choice, please try again.\n";
+                break;
+            }
+        }while (ch != '5');
+    } 
+
+    return 0;
 }
