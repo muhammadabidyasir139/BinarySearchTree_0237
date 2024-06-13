@@ -156,15 +156,13 @@ int main() {
             }
             case '5':
             {
-                return;
+                return 0;
             } 
             default:
             {
-                cout << "Invalid choice, please try again.\n";
+                cout << "Invalid option\n";
                 break;
             }
-        }while (ch != '5');
+        }
     } 
-
-    return 0;
 }
