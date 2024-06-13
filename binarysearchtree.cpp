@@ -53,4 +53,11 @@ class BinaryTree
                 parent->rightchild = newNode; // make the right child of the parent point to the new node
             }
         }
+        
+        void search(string element, Node*& parent, Node*& currentNode)
+        {
+            // This function searches the currentNode of the specifien Node as well as the current Node of its parents
+            currentNode = ROOT;
+            parent = NULL;
+        }
 }
